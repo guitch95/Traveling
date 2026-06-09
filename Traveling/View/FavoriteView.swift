@@ -41,13 +41,13 @@ struct FavoriteView: View {
                             }
                             Spacer()
                             if favorite.isVisited {
-                                Label("Visité", systemImage: "checkmark")
+                                Image(systemName: "checkmark")
                                     .foregroundStyle(.white)
                                     .font(.caption)
                                     .bold()
                                     .padding(8)
-                                    .frame(width: 100)
-                                    .background(.green, in: .capsule)
+                                    .frame(width: 30)
+                                    .background(.green, in: .circle)
                             }
                             Spacer()
                             if let image = favorite.image {
