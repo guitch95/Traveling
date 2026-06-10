@@ -10,6 +10,6 @@ import SwiftUI
 
 struct Category: Identifiable {
     let id = UUID()
-    var image: ImageResource
+    var image: String
     var name: String
 }
