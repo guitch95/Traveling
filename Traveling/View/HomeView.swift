@@ -82,7 +82,7 @@ struct HomeView: View {
                             .bold()
                             .padding()
                             .frame(width: 300, height: 50)
-                        //                            .glassEffect(in: .rect(cornerRadius: 16.0))
+                        // .glassEffect(in: .rect(cornerRadius: 16.0))
                             .overlay(
                                 .white,
                                 in: .rect(cornerRadius: 16).stroke(lineWidth: 3)
