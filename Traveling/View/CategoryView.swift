@@ -35,7 +35,7 @@ struct CategoryView: View {
 }
 
 #Preview {
-    CategoryView(category: Category(image: .cascade, name: "Plage"))
+    CategoryView(category: Category(image: "cascade", name: "Plage"))
         .environment(ViewModel())
     
 }

@@ -96,7 +96,7 @@ struct DetailsView: View {
             localization: "Quintana Roo, Mexique",
             description: "Plage de sable doré dominée par d'anciennes ruines mayas face à la mer des Caraïbes, mêlant histoire fascinante, eaux chaudes et ambiance bohème décontractée toute l'année.",
             rating: 4.6,
-            image: .beach,
+            image: "beach",
             isFavorite: false
         ),
         

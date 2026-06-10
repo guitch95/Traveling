@@ -51,7 +51,7 @@ struct RecommendationView: View {
             localization: "La Digue, Seychelles",
             description: "Sable blanc bordé de blocs de granit rose et d'eaux peu profondes cristallines.",
             rating: 4.8,
-            image: .beach,
+            image: "beach",
             isFavorite: false
         )
     )
